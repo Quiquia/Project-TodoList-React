@@ -1,0 +1,48 @@
+@import "./css/header.css";
+@import "./css/button.css";
+@import "./css/main.css";
+@import "./css/itemTask.css";
+@import "./css/icon.css";
+@import "./css/footer.css";
+@import "./css/edit.css";
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+:root {
+  font-size: 16px;
+  --blue: #3f51b5;
+  --skyBlue: #2196f3;
+  --black: #000000;
+  --red: #ff0000;
+  --grey-1: #90a4ae;
+  --grey-2: #abb2b9;
+  --white: #ffffff;
+  --purple: #ede7f6;
+  --yellow: #ffd54f;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: var(--black);
+}
+.container {
+  width: 100%;
+  margin-inline: 5rem;
+  background: var(--purple);
+  border-radius: 1rem;
+  padding: 1.5rem 2rem;
+  width: min(95vw, 600px);
+  position: relative;
+}

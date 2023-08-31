@@ -1,0 +1,11 @@
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  border: none;
+}
